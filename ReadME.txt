@@ -1,0 +1,3 @@
+This project was completed during a course on Algorithms and Datastructures.
+I implemented a Datastructure using Coalesced Hashing.
+Coalesced hashing is a collision resolution technique used in hash tables to resolve hash collisions. In coalesced hashing, instead of using a linked list to store items that hash to the same index in the table, we store them in a contiguous block of memory called a "cluster". Each cluster has a pointer to the first element in the cluster, and the remaining elements in the cluster are stored consecutively in the memory block.
